@@ -8,3 +8,12 @@ line_length: false
 spaces: false
 url: false
 whitespace: false
+
+# This allows repeated headings inside headings, like:
+# # Title
+# ## Topic 1
+# ### Repeated
+# ## Topic 2
+# ### Repeated
+no-duplicate-heading:
+  siblings_only: true

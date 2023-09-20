@@ -85,10 +85,12 @@ lint:
   # Sourcing repos will have these configs available to applicable linters
   exported_configs:
     - configs:
+        - configs/.editorconfig
         - configs/.flake8
         - configs/.hadolint.yaml
         - configs/.isort.cfg
         - configs/.markdownlint.yaml
+        - configs/.prettierignore
         - configs/.prettierrc.yaml
         - configs/.pylintrc
         - configs/.remarkrc.yaml

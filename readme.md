@@ -9,7 +9,7 @@ own repositories during development. Every setting has been carefully scrutinize
 own workflow. Feel free to import them for your own use by running:
 
 ```bash
-trunk plugins add https://github.com/trunk-io/configs
+trunk plugins add https://github.com/GustavoAV/trunk-configs
 ```
 
 Included in this repository is a set of `exported_configs`. Simply source this repository and you

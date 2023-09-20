@@ -1,0 +1,5 @@
+# Prettier breaks some markdown and yaml sections
+# I prefer "markdownlint" and "yamllint" for these files
+**/*.md
+**/*.yml
+**/*.yaml

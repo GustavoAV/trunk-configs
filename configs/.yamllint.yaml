@@ -8,3 +8,12 @@ rules:
   key-duplicates: {}
   octal-values:
     forbid-implicit-octal: true
+
+  # Default line length is 80 characters
+  # I prefer disabling this rule entirely
+  line-length: disable
+
+ignore:
+# Ignore helm templates since they aren't "yaml"
+- "**/templates/*.yml"
+- "**/templates/*.yaml"
