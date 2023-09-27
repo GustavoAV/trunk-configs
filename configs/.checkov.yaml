@@ -1,0 +1,5 @@
+# Docs: https://github.com/bridgecrewio/checkov#configuration-using-a-config-file
+
+skip-check:
+  # Alerts even if there are already HEALTHCHECK instructions in Dockerfile
+  - CKV_DOCKER_2

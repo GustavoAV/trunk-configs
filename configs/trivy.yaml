@@ -1,0 +1,5 @@
+# Docs: https://aquasecurity.github.io/trivy/v0.45/docs/references/configuration/config-file/
+
+scan:
+  skip-files:
+    - Dockerfile
