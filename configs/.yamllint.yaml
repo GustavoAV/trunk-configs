@@ -14,6 +14,6 @@ rules:
   line-length: disable
 
 ignore:
-# Ignore helm templates since they aren't "yaml"
-- "**/templates/*.yml"
-- "**/templates/*.yaml"
+  # Ignore Helm templates since they aren't "yaml"
+  - "**/templates/*.yml"
+  - "**/templates/*.yaml"
